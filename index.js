@@ -9,7 +9,7 @@ var app = express();
 var port = process.env.PORT || '8000';
 
 //activate server
-app.listen(8000, function() {
+app.listen(port, function() {
     console.log(`server running at http://localhost:${port}`)
 });
 
