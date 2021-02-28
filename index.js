@@ -6,11 +6,11 @@ var path = require("path");
 var app = express();
 
 //access port
-var port = process.env.port || 8000;
+var port = process.env.PORT || '8000';
 
 //activate server
 app.listen(8000, function() {
-    console.log(`server running at http://localhost ${port}`)
+    console.log(`server running at http://localhost ${PORT}`)
 });
 
 //app configuration
