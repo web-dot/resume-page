@@ -10,7 +10,7 @@ var port = process.env.PORT || '8000';
 
 //activate server
 app.listen(8000, function() {
-    console.log(`server running at http://localhost ${PORT}`)
+    console.log(`server running at http://localhost:${port}`)
 });
 
 //app configuration
